@@ -20,14 +20,14 @@ USE TYPEHINTING EVERYWHERE!
 */
 
 echo "<br>";
-class beer extends Beverage
+class Beer extends Beverage
 {
     public float $alcoholPercentage;
 
     public function __construct(string $name, float $price, string $color, float $alcoholPercentage)
     {
         parent::__construct( $name, $price, $color);
-        $this-> alcoholPercentage = $alcoholPercentage;
+        $this->alcoholPercentage = $alcoholPercentage;
     }
 
 
@@ -39,7 +39,7 @@ class beer extends Beverage
 
 }
 
-$Duvel = new beer("Duvel", 3.5, "Blond", 8.5);
+$Duvel = new Beer("Duvel", 3.5, "Blond", 8.5);
 $Duvel->getInfo();
 echo $Duvel->getAlcoholPercentage(),"<br>";
 echo $Duvel->alcoholPercentage,"<br>";

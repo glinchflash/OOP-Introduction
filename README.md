@@ -120,9 +120,9 @@ $animal3->sayHelloToAnimal(); // Will result in: "Hello, turkey"
 
 ## ### 🌱 Must haves - the basics Progress
 - -[x] [Exercise 1](exercise_1_classes.php)
-- -[ ] [Exercise 2](exercise_2_extending.php)
+- -[x] [Exercise 2](exercise_2_extending.php)
 ### 🌱 Must haves - digging deeper Progress
-- -[ ] [Exercise 3](exercise_3_private.php)
+- -[x] [Exercise 3](exercise_3_private.php)
 - -[ ] [Exercise 4](exercise_4_protected.php)
 - -[ ] [Exercise 5](exercise_5_public.php)
 ### 🌼 Nice to haves Progress
