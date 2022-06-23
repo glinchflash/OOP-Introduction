@@ -42,9 +42,6 @@ class Beverage
 
 }
 
-$jupiler = new Beverage("jupiler", 2.5, "brown");
-$jupiler -> showInfoBeverage();
-
 $cola = new Beverage("Cola", 2, "black");
 $cola -> showInfoBeverage();
 
