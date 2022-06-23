@@ -44,3 +44,4 @@ $Duvel->getInfo();
 echo $Duvel->getAlcoholPercentage(),"<br>";
 echo $Duvel->alcoholPercentage,"<br>";
 echo $Duvel->color;
+echo $cola->getAlcoholPercentage();
