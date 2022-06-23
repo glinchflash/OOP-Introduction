@@ -32,7 +32,7 @@ class Beverage
         $this->temperature = "cold";
         $this->color = $color;
     }
-
+    // function to show info of the beverage created
     public function showInfoBeverage () : void
     {
         echo "This $this->name is $this->temperature and has a $this->color color. The price for a $this->name: €$this->price";
@@ -41,8 +41,9 @@ class Beverage
 
 
 }
-
+//make new object(beverage) called cola with the correct parameters
 $cola = new Beverage("Cola", 2, "black");
+// show the info of the beverage (cola)
 $cola -> showInfoBeverage();
-
+// show the temperature of cola
 echo $cola ->temperature;
