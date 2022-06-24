@@ -90,27 +90,30 @@ This class has 3 important parts:
 ```php
 <?php
 
-class Animal = 
+class Beverage
 {
-    // The Properties
-    public $animalType;
-    public $order;
-    public $amount;
-    
-    // The Constructor with incoming parameters in the brackets
-    public function __construct($animalType, $order, $amount)
+    // the properties
+    public string $name;
+    public float $price;
+    public string $temperature;
+    public string $color;
+
+    //the constructor with required properties
+    public function __construct(string $name, float $price, string $color)
     {
-        // in a sentence it would be: "set this class's properties with the same value as the incoming parameters"
-        $this->animalType = $animalType;
-        $this->order = $order;
-        $this->amount = $amount;
-    };
-    
-    // The functions
-    public function sayHelloToAnimal()
+        $this->name = $name;
+        $this->price = $price;
+        $this->temperature = "cold";
+        $this->color = $color;
+    }
+    // function to show info of the beverage created
+    public function getInfo () : void
     {
-        echo "Hello, $this->animalType";
-    };
+        echo "This $this->name is $this->temperature and has a $this->color color. The price for a $this->name: €$this->price";
+        echo "<br>";
+    }
+
+
 }
 ```
 #### Step two: instantiating the object
@@ -120,9 +123,8 @@ For every object you want to create, you just need to instantiate a **new** obje
 ```php
 <?php
 
-$animal1 = new Animal("monkey", "mammal", 25);
-$animal2 = new Animal("donkey", "mammal", 3);
-$animal3 = new Animal("turkey", "bird", 500);
+$cola = new Beverage("Cola", 2, "black");
+
 ```
 #### Step 3: use it!
 
@@ -131,11 +133,26 @@ Now that we created 3 animal objects. we can also start to use them in our code!
 ```php
 <?php
 
-$animal1->sayHelloToAnimal(); // Will result in: "Hello, monkey"
-$animal2->sayHelloToAnimal(); // Will result in: "Hello, donkey"
-$animal3->sayHelloToAnimal(); // Will result in: "Hello, turkey"
+$cola -> getInfo();
 ```
+## What did I learn?
+1. how to create classes and objects from it
+2. how to create child classes and objects from it
+3. how the inheritance works/connects child and parent class
+4. the difference between public,private and protected and the uses for it
+5. how the construct function works
+6. getters and setters and the use of them
+7. strict types and how they interact with the code
+8. a basic for a new way of coding!!! 
 
+![](https://giphy.com/gifs/season-17-the-simpsons-17x10-xT5LMHxhOfscxPfIfm)
+---
+
+### Struggles
+- understand how the inheritance works
+- the use for getters and setters where vague in the beginning for me => but started to understand why they are inportant
+- why strict typing is important => now i see that in many cases this can make or break your code due to f.e. user inputs
+- general struggle with a new way of coding 
 ### Have fun!
 
 ![](https://c.tenor.com/CyzTOF-I6hIAAAAC/clone-twin.gif)
