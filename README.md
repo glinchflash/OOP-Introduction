@@ -175,7 +175,7 @@ Don't recommend drinking a beer/Duvel every time you typed "Duvel" unless you wa
 ---
 ### So you read all the way up to this point?
 
-![](https://media.giphy.com/media/lcjWzvc9po5Og6eV4V/giphy.gif)
+![](https://media.giphy.com/media/xUNd9T4D7w2Cz38qv6/giphy.gif)
 ---
 
 
