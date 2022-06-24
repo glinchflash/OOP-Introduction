@@ -35,7 +35,7 @@ class Beer extends Beverage
     }
 
     //getter to get the alcohol percentage
-    public function getAlcoholPercentage():float
+    public function getAlcoholPercentage():float  //float = function has to return a number with decimal
     {
         return $this->alcoholPercentage;
     }

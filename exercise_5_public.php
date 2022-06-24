@@ -28,18 +28,18 @@ class Beverage
         $this->color = $color;
     }
     // function to show info of the beverage created
-    public function getInfo () : void
+    public function getInfo () : void  //void = function doesn't return anything
     {
         echo "This $this->name is $this->temperature and has a $this->color color. The price for a $this->name: €$this->price";
         echo "<br>";
     }
     //function to show temperature on screen
-    public function showTemperature():void
+    public function showTemperature():void  //void = function doesn't return anything
     {
         echo $this->temperature;
     }
     //function with logic to change price upon statements reached
-    public function setPrice(float $amount):void
+    public function setPrice(float $amount):void  //void = function doesn't return anything
     {
         if ($this->price<=3){
             $this->price += $amount;

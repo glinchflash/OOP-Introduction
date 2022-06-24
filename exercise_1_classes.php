@@ -33,7 +33,7 @@ class Beverage
         $this->color = $color;
     }
     // function to show info of the beverage created
-    public function getInfo () : void
+    public function getInfo () : void //void = function doesn't return anything
     {
         echo "This $this->name is $this->temperature and has a $this->color color. The price for a $this->name: €$this->price";
         echo "<br>";

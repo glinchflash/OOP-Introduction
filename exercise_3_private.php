@@ -35,23 +35,23 @@ class Beverage
     }
 
     // function to show info of the beverage created, (getter)
-    public function getInfo(): void
+    public function getInfo(): void //void = function doesn't return anything
     {
         echo "This $this->name is $this->temperature and has a $this->color color. The price for a $this->name: €$this->price";
         echo "<br>";
     }
     //function getter for color value
-    public function getColor():string
+    public function getColor():string  //string = function has to return a string(text)
     {
         return $this->color;
     }
     //function setter to change color
-    public function setColor(string $color): void
+    public function setColor(string $color): void  //void = function doesn't return anything
     {
         $this->color = $color;
     }
     //function getter to get the name value
-    public function getName():string
+    public function getName():string //string = function has to return a string(text)
     {
         return $this->name;
     }
@@ -73,23 +73,23 @@ class beer extends Beverage
     }
 
     //getter to get the alcohol percentage
-    public function getAlcoholPercentage(): float
+    public function getAlcoholPercentage(): float  //float = function has to return a number with decimal
     {
         return $this->alcoholPercentage;
     }
 //new function to show the alcohol percentage without a return (so no getter)
-    public function displayAlcoholPercentage():void
+    public function displayAlcoholPercentage():void  //void = function doesn't return anything
     {
         echo $this->alcoholPercentage, "<br>";
     }
 
     //function to write the text on screen (private so not accesable without a getter)
-    private function beerInfo():void
+    private function beerInfo():void  //void = function doesn't return anything
     {
         echo "Hi i'm " .$this->getName()." and have an alcohol percentage of $this->alcoholPercentage and I have a ".$this->getColor() ." color.";
     }
     //getter for the beer info to get access to it
-    public function getBeerInfo():void
+    public function getBeerInfo():void  //void = function doesn't return anything
     {
          $this->beerInfo();
     }
