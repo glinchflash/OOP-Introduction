@@ -45,5 +45,5 @@ class Beverage
 $cola = new Beverage("Cola", 2, "black");
 // show the info of the beverage (cola)
 $cola -> getInfo();
-// show t
+// show temperature
 echo $cola ->temperature;

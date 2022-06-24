@@ -1,11 +1,5 @@
-# OOP introduction
 
-- Repository: `oop-introduction`
-- Type of Challenge: `Learning`
-- Duration: `1 day`
-- Team challenge : `solo with some team spirit added`
-
-## The introduction
+## Title = OOP The introduction
 
 OOP - `Object Orientated Programming` - focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. 
 This approach to programming is well-suited for programs that are large, complex and actively updated or maintained.
@@ -18,14 +12,43 @@ This approach to programming is well-suited for programs that are large, complex
 - [Exercise 1](exercise_1_classes.php)
 - [Exercise 2](exercise_2_extending.php)
 
+## ### 🌱 Must haves - the basics Progress
+- [x] [Exercise 1](exercise_1_classes.php)
+  - creating classes with properties,constructor and a getter function
+  - create a object from the class 
+  - display multiple properties and use the getter function to show/display info
+- [x] [Exercise 2](exercise_2_extending.php)
+  - creating a new child class that extends upon the parent class which access the properties of his parent class
+  - create a new object from the child class
+  - display properties from child class using the inheritance (child class has access to properties of parent class due to public access level)
+  - display an error on purpose due to object from parent class doesn't have access to properties of child class)
+
 ### 🌱 Must haves - digging deeper
 - [Exercise 3](exercise_3_private.php)
 - [Exercise 4](exercise_4_protected.php)
 - [Exercise 5](exercise_5_public.php)
 
+### 🌱 Must haves - digging deeper Progress
+- [x] [Exercise 3](exercise_3_private.php)
+  - change properties to private instead of public
+  - using getters to get property values of private properties
+  - using setters to change property of private value
+  - create a private function and use a getter to acces it and display its output
+- - [x] [Exercise 4](exercise_4_protected.php)
+  - change properties to protected
+  - get access to properties without getters/setters, just calling the property due to protected access level => child has access to parents properties
+- [x] [Exercise 5](exercise_5_public.php)
+  - change properties to private again
+  - use getters to get access to private properties
+  - create setter with logical if statement to have control over changing property
+  - display results (chose to display both after if statement was checked and the else was checked)
 ### 🌼 Nice to haves
 - [Exercise 6](exercise_6_const.php)
 - [Exercise 7](exercise_7_static.php)
+
+### 🌼 Nice to haves Progress
+- -[ ] [Exercise 6](exercise_6_const.php)
+- -[ ] [Exercise 7](exercise_7_static.php)
 
 ## An example
 
@@ -118,14 +141,5 @@ $animal3->sayHelloToAnimal(); // Will result in: "Hello, turkey"
 ![](https://c.tenor.com/CyzTOF-I6hIAAAAC/clone-twin.gif)
 ---
 
-## ### 🌱 Must haves - the basics Progress
-- -[x] [Exercise 1](exercise_1_classes.php)
-- -[x] [Exercise 2](exercise_2_extending.php)
-### 🌱 Must haves - digging deeper Progress
-- -[x] [Exercise 3](exercise_3_private.php)
-- -[x] [Exercise 4](exercise_4_protected.php)
-- -[x] [Exercise 5](exercise_5_public.php)
-### 🌼 Nice to haves Progress
-- -[ ] [Exercise 6](exercise_6_const.php)
-- -[ ] [Exercise 7](exercise_7_static.php)
----
+
+

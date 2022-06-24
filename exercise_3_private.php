@@ -16,10 +16,10 @@ TODO: Print this method on the screen on a new line.
 
 USE TYPEHINTING EVERYWHERE!
 */
-
+//parent class
 class Beverage
 {
-    // the properties
+    // the properties of the parent class
     private string $name;
     private float $price;
     private string $temperature;
@@ -34,23 +34,23 @@ class Beverage
         $this->color = $color;
     }
 
-    // function to show info of the beverage created
+    // function to show info of the beverage created, (getter)
     public function getInfo(): void
     {
         echo "This $this->name is $this->temperature and has a $this->color color. The price for a $this->name: €$this->price";
         echo "<br>";
     }
-
+    //function getter for color value
     public function getColor():string
     {
         return $this->color;
     }
-
+    //function setter to change color
     public function setColor(string $color): void
     {
         $this->color = $color;
     }
-
+    //function getter to get the name value
     public function getName():string
     {
         return $this->name;
@@ -59,47 +59,57 @@ class Beverage
 }
 
 
+//create a child class from parent Beverage
 class beer extends Beverage
 {
+    //properties of the child class
     private float $alcoholPercentage;
-
+    //constructor for child class (uses same properties as parentclass + the child class properties)
     public function __construct(string $name, float $price, string $color, float $alcoholPercentage)
     {
+        //constructor from parent class with parent properties to build the object using parent construct with the child construct
         parent::__construct($name, $price, $color);
         $this->alcoholPercentage = $alcoholPercentage;
     }
 
-
+    //getter to get the alcohol percentage
     public function getAlcoholPercentage(): float
     {
         return $this->alcoholPercentage;
     }
-
+//new function to show the alcohol percentage without a return (so no getter)
     public function displayAlcoholPercentage():void
     {
         echo $this->alcoholPercentage, "<br>";
     }
 
-
+    //function to write the text on screen (private so not accesable without a getter)
     private function beerInfo():void
     {
         echo "Hi i'm " .$this->getName()." and have an alcohol percentage of $this->alcoholPercentage and I have a ".$this->getColor() ." color.";
     }
-
+    //getter for the beer info to get access to it
     public function getBeerInfo():void
     {
          $this->beerInfo();
     }
 
 }
-
+//creating new object of the child class "beer"
 $Duvel = new beer("Duvel", 3.5, "Blond", 8.5);
+//calling the getter from parent class to show info
 $Duvel->getInfo();
+//calling the getter from child class
 echo $Duvel->getAlcoholPercentage(), "<br>";
+//calling 2nd function to get alcohol percentage which isn't a getter
 $Duvel->displayAlcoholPercentage();
+//calling the getter for color from parent class
 echo $Duvel->getColor();
 echo "<br>";
+//setting the color to a new value with a setter (from parent class)
 $Duvel->setColor("light");
+//calling the getter for color from parent class again with new value
 echo $Duvel->getColor();
 echo "<br>";
+//calling the getter from child class to display private function
 $Duvel->getBeerInfo();

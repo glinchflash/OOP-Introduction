@@ -10,15 +10,16 @@ TODO: Change the properties to private.
 TODO: Fix the errors without using getter and setter functions.
 TODO: Change the price to 3.5 euro and print it also on the screen on a new line.
 */
+//parent class
 class Beverage
 {
-    // the properties
+    //properties of the parent class
     private string $name;
     private float $price;
     private string $temperature;
     private string $color;
 
-    //the constructor with required properties
+    //the constructor with required properties from parent
     public function __construct(string $name, float $price, string $color)
     {
         $this->name = $name;
@@ -32,13 +33,13 @@ class Beverage
         echo "This $this->name is $this->temperature and has a $this->color color. The price for a $this->name: €$this->price";
         echo "<br>";
     }
-
+    //function to show temperature on screen
     public function showTemperature():void
     {
         echo $this->temperature;
     }
-
-    public function checkprice(float $amount):void
+    //function with logic to change price upon statements reached
+    public function setPrice(float $amount):void
     {
         if ($this->price<=3){
             $this->price += $amount;
@@ -53,11 +54,11 @@ class Beverage
 }
 //make new object(beverage) called cola with the correct parameters
 $cola = new Beverage("Cola", 2, "black");
-// show the info of the beverage (cola)
+// call getter to get info from the drink
 $cola -> getInfo();
-// show temperature
+// call function to show temperature
 $cola->showTemperature();
 echo "<br>";
-//call function to dedicate price
-$cola->checkprice(1.5);
-$cola->checkprice(1.5);
+//call function to dedicate price (once with the addition, once with the substraction)
+$cola->setPrice(1.5);
+$cola->setPrice(1.5);
