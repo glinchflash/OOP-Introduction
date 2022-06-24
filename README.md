@@ -135,6 +135,11 @@ Now that we created 3 animal objects. we can also start to use them in our code!
 
 $cola -> getInfo();
 ```
+Don't recommend drinking a beer/Duvel every time you typed "Duvel" unless you wanna see this ofcourse!
+
+![](https://media.giphy.com/media/FV7O4kNDztU64/giphy.gif)
+
+
 ## What did I learn?
 1. how to create classes and objects from it
 2. how to create child classes and objects from it
@@ -145,7 +150,7 @@ $cola -> getInfo();
 7. strict types and how they interact with the code
 8. a basic for a new way of coding!!! 
 
-![](https://giphy.com/gifs/season-17-the-simpsons-17x10-xT5LMHxhOfscxPfIfm)
+![](https://media.giphy.com/media/xT5LMHxhOfscxPfIfm/giphy.gif)
 ---
 
 ### Struggles
