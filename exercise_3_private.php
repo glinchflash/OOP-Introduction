@@ -88,7 +88,7 @@ class beer extends Beverage
 
     public function getBeerInfo():void
     {
-        $this->beerInfo();
+         $this->beerInfo();
     }
 
 }
