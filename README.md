@@ -171,9 +171,10 @@ Don't recommend drinking a beer/Duvel every time you typed "Duvel" unless you wa
 - the use for getters and setters where vague in the beginning for me => but started to understand why they are important
 - why strict typing is important => now I see that in many cases this can make or break your code due to f.e. user inputs
 - general struggle with a new way of coding 
-### Have fun!
+---
+### So you read all the way up to this point?
 
-![](https://c.tenor.com/CyzTOF-I6hIAAAAC/clone-twin.gif)
+![](https://media.giphy.com/media/lcjWzvc9po5Og6eV4V/giphy.gif)
 ---
 
 
