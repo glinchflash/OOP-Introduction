@@ -20,23 +20,23 @@ Learn the basics of OOP - `Object Orientated Programming` - like how to create f
 - [Exercise 1](exercise_1_classes.php)
 - [Exercise 2](exercise_2_extending.php)
 
-## ### 🌱 Must haves - the basics Progress
+##  🌱 Must haves - the basics => Progress
 - [x] [Exercise 1](exercise_1_classes.php)
   - creating classes with properties,constructor and a getter function
-  - create a object from the class 
+  - create an object from the class 
   - display multiple properties and use the getter function to show/display info
 - [x] [Exercise 2](exercise_2_extending.php)
   - creating a new child class that extends upon the parent class which access the properties of his parent class
   - create a new object from the child class
   - display properties from child class using the inheritance (child class has access to properties of parent class due to public access level)
-  - display an error on purpose due to object from parent class doesn't have access to properties of child class)
+  - display an error on purpose due to object from parent class doesn't have access to properties of child class
 
 ### 🌱 Must haves - digging deeper
 - [Exercise 3](exercise_3_private.php)
 - [Exercise 4](exercise_4_protected.php)
 - [Exercise 5](exercise_5_public.php)
 
-### 🌱 Must haves - digging deeper Progress
+### 🌱 Must haves - digging deeper => Progress
 - [x] [Exercise 3](exercise_3_private.php)
   - change properties to private instead of public
   - using getters to get property values of private properties
@@ -54,7 +54,7 @@ Learn the basics of OOP - `Object Orientated Programming` - like how to create f
 - [Exercise 6](exercise_6_const.php)
 - [Exercise 7](exercise_7_static.php)
 
-### 🌼 Nice to haves Progress
+### 🌼 Nice to haves => Progress
 - -[ ] [Exercise 6](exercise_6_const.php)
 - -[ ] [Exercise 7](exercise_7_static.php)
 ---
