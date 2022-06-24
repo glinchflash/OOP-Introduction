@@ -170,7 +170,8 @@ Don't recommend drinking a beer/Duvel every time you typed "Duvel" unless you wa
 - understand how the inheritance works
 - the use for getters and setters where vague in the beginning for me => but started to understand why they are important
 - why strict typing is important => now I see that in many cases this can make or break your code due to f.e. user inputs
-- general struggle with a new way of coding 
+- general struggle with a new way of coding  
+
 ---
 ### So you read all the way up to this point?
 
