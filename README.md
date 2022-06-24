@@ -1,12 +1,20 @@
 
-## Title = OOP The introduction
+## Title: OOP The introduction
 
 OOP - `Object Orientated Programming` - focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. 
 This approach to programming is well-suited for programs that are large, complex and actively updated or maintained.
 
 ## The objective
-
-> Lost for a second? Have a look at [this example](#an-example)
+Learn the basics of OOP - `Object Orientated Programming` - like how to create following
+1. a class
+2. an object
+3. a child class
+4. an object of the child class
+5. construct(or)
+6. getters and setters
+7. access levels (public,private & protected)
+8. how the inheritance works
+---
 
 ### 🌱 Must haves - the basics
 - [Exercise 1](exercise_1_classes.php)
@@ -49,7 +57,11 @@ This approach to programming is well-suited for programs that are large, complex
 ### 🌼 Nice to haves Progress
 - -[ ] [Exercise 6](exercise_6_const.php)
 - -[ ] [Exercise 7](exercise_7_static.php)
+---
 
+
+> Lost for a second? Have a look at [this example](#an-example)
+or this one down here!
 ## An example
 
 Let's say we have a list of animals from the zoo:
@@ -78,6 +90,7 @@ With OOP we would create a class `Animal`, that class will serve as some sort of
 Think of it as similar to an object, but on steroids.
 
 #### Step one: the blueprint (class)
+example of the class beverage we used in these exercises.
 
 This class has 3 important parts:
 1. the public strings
