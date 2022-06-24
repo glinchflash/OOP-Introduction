@@ -33,7 +33,7 @@ This approach to programming is well-suited for programs that are large, complex
   - change properties to private instead of public
   - using getters to get property values of private properties
   - using setters to change property of private value
-  - create a private function and use a getter to acces it and display its output
+  - create a private function and use a getter to access it and display its output
 - - [x] [Exercise 4](exercise_4_protected.php)
   - change properties to protected
   - get access to properties without getters/setters, just calling the property due to protected access level => child has access to parents properties
@@ -135,7 +135,7 @@ Now that we created 3 animal objects. we can also start to use them in our code!
 
 $cola -> getInfo();
 ```
-Don't recommend drinking a beer/Duvel every time you typed "Duvel" unless you wanna see this ofcourse!
+Don't recommend drinking a beer/Duvel every time you typed "Duvel" unless you want to see this of course!
 
 ![](https://media.giphy.com/media/FV7O4kNDztU64/giphy.gif)
 
@@ -148,15 +148,15 @@ Don't recommend drinking a beer/Duvel every time you typed "Duvel" unless you wa
 5. how the construct function works
 6. getters and setters and the use of them
 7. strict types and how they interact with the code
-8. a basic for a new way of coding!!! 
+8. a baseline for a new way of coding!!! 
 
 ![](https://media.giphy.com/media/xT5LMHxhOfscxPfIfm/giphy.gif)
 ---
 
 ### Struggles
 - understand how the inheritance works
-- the use for getters and setters where vague in the beginning for me => but started to understand why they are inportant
-- why strict typing is important => now i see that in many cases this can make or break your code due to f.e. user inputs
+- the use for getters and setters where vague in the beginning for me => but started to understand why they are important
+- why strict typing is important => now I see that in many cases this can make or break your code due to f.e. user inputs
 - general struggle with a new way of coding 
 ### Have fun!
 
